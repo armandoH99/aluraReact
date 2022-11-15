@@ -1,5 +1,34 @@
 {
-    "name": "armando Hector",
-    "job": "lead junior" 
+    "name": "Armando Hector",
+    "job": "Juniest",
+    "github": "armandoH99",
+    "playlists": {
+     " Asmongold TV": [
+        {
+            "title":"The most dangerous man in America",
+            "url":"https://www.youtube.com/watch?v=QVgm6ZpCDPw",
+            "thumb":"https://i.ytimg.com/an_webp/QVgm6ZpCDPw/mqdefault_6s.webp?du=3000&sqp=CLiFzpsG&rs=AOn4CLBDKvva9oNu0IVlbJMyeSKL4T6Z7g"
+        },
+        {
+            "title":"Why play MMO solo",
+            "url":"https://www.youtube.com/watch?v=hr_fGiHfGhQ",
+            "thumb":"https://i.ytimg.com/an_webp/hr_fGiHfGhQ/mqdefault_6s.webp?du=3000&sqp=CPyIzpsG&rs=AOn4CLCpRkq5SfY4uEzlTNeaP0PHWisi7Q"
+        }
+     ],
+     "Dr Disrespect": [
+        {
+            "title": "Dr Disrespect LIVE",
+            "url": "https://www.youtube.com/watch?v=qH0b92JIPQQ",
+            "thumb": "https://i.ytimg.com/an_webp/qH0b92JIPQQ/mqdefault_6s.webp?du=3000&sqp=CLiEzpsG&rs=AOn4CLBBIpqw5brKzo3w4aHP-TXtp3dLFg"
+        }
+     ],
+     "Mcgregor": [
+        {
+            "title": "Mcgregor vs the Mountain",
+            "url": "https://www.youtube.com/watch?v=Aaehn1aY8Ig",
+            "thumb": "https://i.ytimg.com/an_webp/Aaehn1aY8Ig/mqdefault_6s.webp?du=3000&sqp=CLilzpsG&rs=AOn4CLByBIg5LYR3TFcoLkc0eIJtgFMv1w"
+        }
+     ]
+    }
 }
  
