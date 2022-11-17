@@ -67,6 +67,7 @@ function Header() {
     <StyledHeader>
       <StyledBanner bg={config.bn} />   
       {/* <StyledBanner bg={config.bn} />     */}
+      {/* <StyledBanner bg={config.bn} />     */}
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`} />
         <h2>{config.name}</h2>
