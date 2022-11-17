@@ -2,41 +2,47 @@
     "name": "Armando Hector",
     "job": "Juniest",
     "github": "armandoH99",
+    "bn": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80",
     "playlists": {
      " Asmongold TV": [
         {
             "title":"The most dangerous man in America",
             "url":"https://www.youtube.com/watch?v=QVgm6ZpCDPw",
-            "thumb":"https://i.ytimg.com/an_webp/QVgm6ZpCDPw/mqdefault_6s.webp?du=3000&sqp=CIic05sG&rs=AOn4CLBBnIZm92n2-pQhv8YvLwoJ7Y6jiw"
+            "thumb":"https://i.ytimg.com/vi/QVgm6ZpCDPw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPbkl4VyEyA1ySW4caf9cUqwLKnQ"
+        },
+        {
+            "title":"Sauron vs the Lich King",
+            "url":"https://www.youtube.com/watch?v=OFO38flBT6Y",
+            "thumb":"https://i.ytimg.com/vi/OFO38flBT6Y/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDDl3CwkB3gM6qhiQxsZO7nZZkWog"
         },
         {
             "title":"Why play MMO solo",
             "url":"https://www.youtube.com/watch?v=hr_fGiHfGhQ",
-            "thumb":"https://i.ytimg.com/an_webp/hr_fGiHfGhQ/mqdefault_6s.webp?du=3000&sqp=CJCZ05sG&rs=AOn4CLDw1QJvD5czu43RzB2cfNUt3WKSng"
+            "thumb":"https://i.ytimg.com/vi/hr_fGiHfGhQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoaksexrKpcxz8JIH-njK6MYCsdQ"
         }
      ],
      "Dr Disrespect": [
         {
-            "title": "Dr Disrespect Reacts to the most realistic upcoming videogame",
+            "title": "This is why activision banned Dr Disrespect's call of duty partnership",
             "url": "https://www.youtube.com/watch?v=MT1XH-aiu68",
-            "thumb": "https://i.ytimg.com/an_webp/MT1XH-aiu68/mqdefault_6s.webp?du=3000&sqp=CNaT05sG&rs=AOn4CLAPAgk8GJIRs9O1GcKjmbaAiFlV_w"
+            "thumb": "https://i.ytimg.com/vi/QbCn_BXOdOU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7ZzbGhvxai5kxokBchGixirtLnw"
         },
         {
             "title": "Dr Disrespect Is ready for warzone 2.0",
             "url": "https://www.youtube.com/watch?v=qH0b92JIPQQ",
-            "thumb": "https://i.ytimg.com/an_webp/ufn4A8AEzFA/mqdefault_6s.webp?du=3000&sqp=CPCU05sG&rs=AOn4CLCmCW9VclgEBPJSBOJ5WIZHAcxGgA"
+            "thumb": "https://i.ytimg.com/vi/ufn4A8AEzFA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCaEJ6iHDR6G5SDwo9KKxwDxUq2tQ"
         },
         {
             "title": "Dr Disrespect being a TOTAL savage and Reading donations",
             "url": "https://www.youtube.com/watch?v=dWTIfuBpfis",
-            "thumb": "https://i.ytimg.com/an_webp/dWTIfuBpfis/mqdefault_6s.webp?du=3000&sqp=CPyT05sG&rs=AOn4CLD80Uav193Uq3xFM1KBa-cc36F9ww"
+            "thumb": "https://i.ytimg.com/vi/dWTIfuBpfis/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0ITQ9_wIoSwzFZ1cFJ31hFofovQ"
         }
      ],
      "Mcgregor": [
         {
             "title": "Mcgregor vs the Mountain",
             "url": "https://www.youtube.com/watch?v=Aaehn1aY8Ig",
-            "thumb": "https://i.ytimg.com/an_webp/Aaehn1aY8Ig/mqdefault_6s.webp?du=3000&sqp=CKiY05sG&rs=AOn4CLCEkhYvvkPg8M6PQE3848APpU0Erw"
+            "thumb": "https://i.ytimg.com/vi/Aaehn1aY8Ig/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAh-0sJSf2zs7U1qrFLegmOcQi-Pg"
         }
      ]
     }

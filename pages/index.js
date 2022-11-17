@@ -2,15 +2,41 @@ import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import { StyledTimeline } from "../src/components/Timeline.js"
-import  Menu  from "../src/components/Menu.js"
+import  Menu  from "../src/components/Menu/"
+import { useState } from "react";
+
+const StyledHeader = styled.div`
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid turquoise;
+  }
+  .user-info {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 16px 32px;
+    gap: 16px;
+  }
+`;
+const StyledBanner = styled.div`
+  background-color: BlueViolet;
+  /* background-image: url(${config.bn}); */
+  background-image: url(${({ bg }) => bg});
+  
+  height:230px;
+`
 
 function HomePage() {
+  const [filterValue, setFilterValue] = useState('')
   const estilospage = {
     // backgroundColor: "BlueViolet",
     // borderRadius: "5px",
     // padding: "8px",
   };
-  console.log(config.playlists);
+  // console.log(config.playlists);
   return (
     <>
       <CSSReset />
@@ -21,9 +47,9 @@ function HomePage() {
                 // backgroundColor: "BlueViolet"             
                 
             }}>            
-        <Menu />
+        <Menu searchValue={filterValue} changeSearchValue={setFilterValue}/>
         <Header />
-        <TimeLine playlists={config.playlists}>Conteudo</TimeLine>
+        <TimeLine searchValue={filterValue} playlists={config.playlists}>Conteudo</TimeLine>
       </div>
     </>
   );
@@ -35,25 +61,12 @@ export default HomePage;
 //   return <div>Menu</div>;
 // }
 
-const StyledHeader = styled.div`
-  img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 4px solid turquoise;
-  }
-  .user-info {
-    margin-top:50px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 16px 32px;
-    gap: 16px;
-  }
-`;
+
 function Header() {
   return (
     <StyledHeader>
+      <StyledBanner bg={config.bn} />   
+      {/* <StyledBanner bg={config.bn} />     */}
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`} />
         <h2>{config.name}</h2>
@@ -63,19 +76,22 @@ function Header() {
   );
 }
 
-function TimeLine(props) {
+function TimeLine({searchValue, ...props}) {
   const playlistsNames = Object.keys(props.playlists);
   return (
     <StyledTimeline >
       {playlistsNames.map((playlistsName) => {
         const videos = props.playlists[playlistsName];
         return (
-          <section>
+          <section key={playlistsName}>
             <h2>{playlistsName}</h2>
             <div>
-              {videos.map((video) => {
+            
+              {videos.filter((video)=>{
+                return video.title.toLowerCase().includes(searchValue.toLowerCase())
+              }).map((video) => {
                 return (
-                  <a href={video.url}>
+                  <a  key={video.url} href={video.url}>
                     <img src={video.thumb} />
                     <span>{video.title}</span>
                   </a>
