@@ -6,6 +6,8 @@ import  Menu  from "../src/components/Menu/"
 import { useState } from "react";
 
 const StyledHeader = styled.div`
+  
+
   img {
     width: 80px;
     height: 80px;
@@ -31,25 +33,22 @@ const StyledBanner = styled.div`
 
 function HomePage() {
   const [filterValue, setFilterValue] = useState('')
-  const estilospage = {
-    // backgroundColor: "BlueViolet",
-    // borderRadius: "5px",
-    // padding: "8px",
-  };
-  // console.log(config.playlists);
+ 
   return (
     <>
-      <CSSReset />
+      
       <div style={{
                 display: "flex",
                 flexDirection: "column",
                 flex: 1,   
-                // backgroundColor: "BlueViolet"             
+                //backgroundColor: "BlueViolet"   
+                          
                 
             }}>            
         <Menu searchValue={filterValue} changeSearchValue={setFilterValue}/>
         <Header />
-        <TimeLine searchValue={filterValue} playlists={config.playlists}>Conteudo</TimeLine>
+        
+        <TimeLine searchValue={filterValue} playlists={config.playlists}>Conteudo</TimeLine>     
       </div>
     </>
   );
