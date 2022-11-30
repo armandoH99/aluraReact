@@ -30,7 +30,7 @@ export default function RegisterVideo() {
   //constrolar o state do modal
   //formulario
   const formCadastro = useForm({ initialValues:{ titulo: "new video", url: "www.youtube.com"} })
-  const [formVisivel, SetFormVisivel] = useState(true);
+  const [formVisivel, SetFormVisivel] = useState(false);
   return (
     <StyledRegisterVideo>
       <button className="add-video" onClick={() => SetFormVisivel(true)}>
