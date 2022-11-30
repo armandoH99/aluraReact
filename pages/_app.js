@@ -4,7 +4,7 @@ import ColorModeProvider, { ColorModeContext } from "../src/components/Menu/comp
 import React, {
   useContext
 } from "react";
-import App from "next/app";
+import RegisterVideo from "../src/components/RegisterVideo";
 
 const theme = {
   light: {
@@ -25,7 +25,7 @@ const theme = {
 };
 function ProviderWrapper(props) {
   return (
-    <ColorModeProvider initialMode={"light"}>
+    <ColorModeProvider initialMode={"dark"}>
       {props.children}
     </ColorModeProvider>
   )
@@ -39,6 +39,7 @@ function ProviderWrapper(props) {
       <ThemeProvider theme={theme[contexto.mode]}>
         <CSSReset />
         <Component {...pageProps} />
+        <RegisterVideo/>
       </ThemeProvider>
     
   );

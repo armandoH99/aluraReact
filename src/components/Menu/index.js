@@ -30,8 +30,7 @@ export default function Menu({changeSearchValue}) {
   return (
     <StyledMenu>
       <div>
-        <Logo />        
-        
+        <Logo />          
       </div>
       <Search SetSearchValue={changeSearchValue}/>
       <DarkModeSwitch />
